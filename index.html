@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sharp Cuts — Premium Barber Shop</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <nav>
+    <div class="logo">SHARP CUTS</div>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <ul id="nav-menu">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#location">Location</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ============ HERO SECTION ============ -->
+  <section id="hero">
+    <div class="hero-content">
+      <p class="subtitle">Est. 2010 — Premium Grooming</p>
+      <h1>Sharp Cuts <span>Barber Shop</span></h1>
+
+      <!-- ✂️ Barber Icons -->
+      <div class="barber-icons">
+
+        <!-- Scissors (Horizontal Gold) -->
+        <svg class="icon-scissors" viewBox="0 0 120 60" xmlns="http://www.w3.org/2000/svg" aria-label="Scissors">
+          <g class="scissor-half-a" stroke="#c9a227" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+            <circle cx="15" cy="20" r="9" />
+            <line x1="23" y1="24" x2="105" y2="42" />
+          </g>
+
+          <g class="scissor-half-b" stroke="#c9a227" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+            <circle cx="15" cy="40" r="9" />
+            <line x1="23" y1="36" x2="105" y2="18" />
+          </g>
+
+          <circle cx="60" cy="30" r="3.5" fill="#c9a227" />
+        </svg>
+
+        <!-- Comb (Gold, Tilted 20deg) -->
+        <svg class="icon-comb" viewBox="0 0 120 60" xmlns="http://www.w3.org/2000/svg" aria-label="Comb">
+          <g fill="#c9a227">
+            <rect x="8" y="14" width="104" height="7" rx="3" />
+            <rect x="13" y="21" width="4" height="32" rx="2" />
+            <rect x="22" y="21" width="4" height="32" rx="2" />
+            <rect x="31" y="21" width="4" height="32" rx="2" />
+            <rect x="40" y="21" width="4" height="32" rx="2" />
+            <rect x="49" y="21" width="4" height="32" rx="2" />
+            <rect x="58" y="21" width="4" height="32" rx="2" />
+            <rect x="67" y="21" width="4" height="32" rx="2" />
+            <rect x="76" y="21" width="4" height="32" rx="2" />
+            <rect x="85" y="21" width="4" height="32" rx="2" />
+            <rect x="94" y="21" width="4" height="32" rx="2" />
+            <rect x="103" y="21" width="4" height="32" rx="2" />
+          </g>
+        </svg>
+
+      </div>
+
+      <p class="tagline">Where Style Meets Precision</p>
+      <div class="divider"></div>
+      <a href="#services" class="btn">View Our Services</a>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES SECTION ============ -->
+  <section id="services">
+    <div class="container">
+      <div class="section-title">
+        <p>What We Offer</p>
+        <h2>Our Services</h2>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-item">
+          <div class="service-info">
+            <h3>Classic Haircut</h3>
+            <p>Scissor cut, styled &amp; finished</p>
+          </div>
+          <div class="service-price">$25</div>
+        </div>
+
+        <div class="service-item">
+          <div class="service-info">
+            <h3>Skin Fade</h3>
+            <p>Precision fade with razor finish</p>
+          </div>
+          <div class="service-price">$30</div>
+        </div>
+
+        <div class="service-item">
+          <div class="service-info">
+            <h3>Beard Trim &amp; Shape</h3>
+            <p>Hot towel, shaping &amp; oil treatment</p>
+          </div>
+          <div class="service-price">$18</div>
+        </div>
+
+        <div class="service-item">
+          <div class="service-info">
+            <h3>Royal Shave</h3>
+            <p>Straight razor, hot towel ritual</p>
+          </div>
+          <div class="service-price">$28</div>
+        </div>
+
+        <div class="service-item">
+          <div class="service-info">
+            <h3>Haircut + Beard Combo</h3>
+            <p>Complete grooming package</p>
+          </div>
+          <div class="service-price">$45</div>
+        </div>
+
+        <div class="service-item">
+          <div class="service-info">
+            <h3>Kids Haircut</h3>
+            <p>For gentlemen under 12</p>
+          </div>
+          <div class="service-price">$16</div>
+        </div>
+
+        <div class="service-item">
+          <div class="service-info">
+            <h3>Hair Wash &amp; Styling</h3>
+            <p>Deep cleanse &amp; professional styling</p>
+          </div>
+          <div class="service-price">$15</div>
+        </div>
+
+        <div class="service-item">
+          <div class="service-info">
+            <h3>Head Shave</h3>
+            <p>Full head, smooth razor finish</p>
+          </div>
+          <div class="service-price">$22</div>
+        </div>
+
+        <div class="service-item">
+          <div class="service-info">
+            <h3>VIP Full Package</h3>
+            <p>Haircut, beard, shave &amp; facial</p>
+          </div>
+          <div class="service-price">$65</div>
+        </div>
+
+        <div class="service-item">
+          <div class="service-info">
+            <h3>Eyebrow Shaping</h3>
+            <p>Clean-up &amp; definition</p>
+          </div>
+          <div class="service-price">$10</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY SECTION ============ -->
+  <section id="gallery">
+    <div class="container">
+      <div class="section-title">
+        <p>Our Work</p>
+        <h2>Client Gallery</h2>
+      </div>
+
+      <div class="gallery-grid">
+
+        <!-- 1. Haircut -->
+        <div class="gallery-card">
+          <div class="gallery-img">
+            <img
+              src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?q=80&w=800&auto=format&fit=crop"
+              alt="Client getting a fresh haircut" loading="lazy" />
+          </div>
+          <div class="gallery-caption">
+            <h3>Haircut</h3>
+            <p>Precision cuts for every style</p>
+          </div>
+        </div>
+
+        <!-- 2. Beard -->
+        <div class="gallery-card">
+          <div class="gallery-img">
+            <img src="images.jpg" alt="Client getting a beard trim" loading="lazy" />
+          </div>
+          <div class="gallery-caption">
+            <h3>Beard Grooming</h3>
+            <p>Sharp lines &amp; perfect shape</p>
+          </div>
+        </div>
+
+        <!-- 3. Hair Wash -->
+        <div class="gallery-card">
+          <div class="gallery-img">
+            <img src="wash-hair.jpg" alt="Client getting a relaxing hair wash" loading="lazy" />
+          </div>
+          <div class="gallery-caption">
+            <h3>Hair Wash</h3>
+            <p>Deep cleanse &amp; relaxing care</p>
+          </div>
+        </div>
+
+        <!-- 4. Line Up -->
+        <div class="gallery-card">
+          <div class="gallery-img">
+            <img
+              src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=800&auto=format&fit=crop"
+              alt="Client getting a lineup" loading="lazy" />
+          </div>
+          <div class="gallery-caption">
+            <h3>Line Up</h3>
+            <p>Crisp edges &amp; clean finish</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LOCATION / MAP SECTION ============ -->
+  <section id="location">
+    <div class="container">
+      <div class="section-title">
+        <p>Find Us</p>
+        <h2>Our Location</h2>
+      </div>
+
+      <div class="map-wrapper">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.30596073366!2d-74.25986548248684!3d40.69714941932609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Barber Shop Location">
+        </iframe>
+      </div>
+
+      <p class="map-address">
+        <strong>Address:</strong> 124 Madison Avenue, New York, NY 10016, United States
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer id="contact">
+    <div class="footer-logo">Sharp Cuts</div>
+    <p class="footer-tagline">Barber Shop &amp; Grooming Lounge</p>
+
+    <div class="contact-info">
+
+      <!-- Email -->
+      <div class="contact-block">
+        <div class="icon">
+          <svg viewBox="0 0 24 24">
+            <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+            <path d="m2 7 10 6 10-6"></path>
+          </svg>
+        </div>
+        <div class="text">
+          <span>Email Us</span>
+          <a href="mailto:info@sharpcuts.com">info@sharpcuts.com</a>
+        </div>
+      </div>
+
+      <!-- Phone -->
+      <div class="contact-block">
+        <div class="icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+          </svg>
+        </div>
+        <div class="text">
+          <span>Call Us</span>
+          <a href="tel:+12125550147">+1 (212) 555-0147</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <div class="footer-bottom">
+      &copy; 2025 Sharp Cuts Barber Shop. All rights reserved.
+      <span class="designer">Designed by <strong>Mustacrowphotoshoper</strong></span>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
